@@ -1,0 +1,1155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>849</width>
+    <height>509</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(170, 170, 255);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <property name="leftMargin">
+     <number>0</number>
+    </property>
+    <property name="topMargin">
+     <number>0</number>
+    </property>
+    <property name="rightMargin">
+     <number>0</number>
+    </property>
+    <property name="bottomMargin">
+     <number>0</number>
+    </property>
+    <item row="1" column="0">
+     <widget class="QFrame" name="frame_2">
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout" stretch="0,0">
+       <property name="spacing">
+        <number>0</number>
+       </property>
+       <property name="leftMargin">
+        <number>0</number>
+       </property>
+       <property name="topMargin">
+        <number>0</number>
+       </property>
+       <property name="rightMargin">
+        <number>0</number>
+       </property>
+       <property name="bottomMargin">
+        <number>0</number>
+       </property>
+       <item>
+        <widget class="QFrame" name="frame">
+         <property name="minimumSize">
+          <size>
+           <width>150</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>100</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">
+background-color: rgb(170, 170, 255);</string>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_3">
+          <item>
+           <widget class="QPushButton" name="BOTON_TABLA">
+            <property name="styleSheet">
+             <string notr="true">border-radius: 10px; background: rgb(240, 209, 234);</string>
+            </property>
+            <property name="text">
+             <string>TABLA</string>
+            </property>
+            <property name="icon">
+             <iconset>
+              <normaloff>../Fotos/principal/ximi (6).png</normaloff>../Fotos/principal/ximi (6).png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>32</width>
+              <height>32</height>
+             </size>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="BOTON_rEGISTRAR">
+            <property name="styleSheet">
+             <string notr="true">border-radius: 10px; background: rgb(240, 209, 234)</string>
+            </property>
+            <property name="text">
+             <string>  REGISTRAR</string>
+            </property>
+            <property name="icon">
+             <iconset>
+              <normaloff>../Fotos/principal/registro.png</normaloff>../Fotos/principal/registro.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>32</width>
+              <height>32</height>
+             </size>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="BOTON_ACTUALIZAR">
+            <property name="styleSheet">
+             <string notr="true">border-radius: 10px; background: rgb(240, 209, 234)</string>
+            </property>
+            <property name="text">
+             <string>ACTUALIZAR</string>
+            </property>
+            <property name="icon">
+             <iconset>
+              <normaloff>../Fotos/principal/ximi (13).png</normaloff>../Fotos/principal/ximi (13).png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>32</width>
+              <height>32</height>
+             </size>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="BOTON_eLIMINAR">
+            <property name="styleSheet">
+             <string notr="true">border-radius: 10px; background: rgb(240, 209, 234)</string>
+            </property>
+            <property name="text">
+             <string> ELIMINAR</string>
+            </property>
+            <property name="icon">
+             <iconset>
+              <normaloff>../Fotos/principal/ximi (12).png</normaloff>../Fotos/principal/ximi (12).png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>32</width>
+              <height>32</height>
+             </size>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QFrame" name="frame_3">
+         <property name="enabled">
+          <bool>true</bool>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(170, 170, 255);</string>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_2">
+          <property name="spacing">
+           <number>0</number>
+          </property>
+          <property name="leftMargin">
+           <number>0</number>
+          </property>
+          <property name="topMargin">
+           <number>0</number>
+          </property>
+          <property name="rightMargin">
+           <number>0</number>
+          </property>
+          <property name="bottomMargin">
+           <number>0</number>
+          </property>
+          <item>
+           <widget class="QStackedWidget" name="stackedWidget">
+            <property name="styleSheet">
+             <string notr="true">background-color: rgb(170, 170, 255);
+</string>
+            </property>
+            <property name="currentIndex">
+             <number>0</number>
+            </property>
+            <widget class="QWidget" name="pagina1">
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(170, 170, 255);</string>
+             </property>
+             <widget class="QPushButton" name="Btn_Barcode">
+              <property name="geometry">
+               <rect>
+                <x>470</x>
+                <y>350</y>
+                <width>221</width>
+                <height>30</height>
+               </rect>
+              </property>
+              <property name="minimumSize">
+               <size>
+                <width>120</width>
+                <height>30</height>
+               </size>
+              </property>
+              <property name="font">
+               <font>
+                <family>Fixedsys</family>
+                <pointsize>11</pointsize>
+                <weight>75</weight>
+                <bold>true</bold>
+               </font>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background-color: rgb(255, 255, 255);</string>
+              </property>
+              <property name="text">
+               <string>Codigo Barras</string>
+              </property>
+             </widget>
+             <widget class="QRadioButton" name="Btn_3">
+              <property name="geometry">
+               <rect>
+                <x>620</x>
+                <y>40</y>
+                <width>51</width>
+                <height>51</height>
+               </rect>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background-color: rgb(255, 255, 255);</string>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+              <property name="icon">
+               <iconset>
+                <normaloff>../../../OneDrive/Documentos/Programacion/Proyecto/Login_V2/Fotos/pngtree-perfume-vector-illustration-in-hand-drawn-style-png-image_2897181.png</normaloff>../../../OneDrive/Documentos/Programacion/Proyecto/Login_V2/Fotos/pngtree-perfume-vector-illustration-in-hand-drawn-style-png-image_2897181.png</iconset>
+              </property>
+              <property name="iconSize">
+               <size>
+                <width>48</width>
+                <height>48</height>
+               </size>
+              </property>
+             </widget>
+             <widget class="QRadioButton" name="Btn_7">
+              <property name="geometry">
+               <rect>
+                <x>480</x>
+                <y>140</y>
+                <width>51</width>
+                <height>51</height>
+               </rect>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background-color: rgb(255, 255, 255);</string>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+              <property name="icon">
+               <iconset>
+                <normaloff>../../../OneDrive/Documentos/Programacion/Proyecto/Login_V2/Fotos/gratis-png-frasco-gotero-mapa-material-acuario.png</normaloff>../../../OneDrive/Documentos/Programacion/Proyecto/Login_V2/Fotos/gratis-png-frasco-gotero-mapa-material-acuario.png</iconset>
+              </property>
+              <property name="iconSize">
+               <size>
+                <width>48</width>
+                <height>48</height>
+               </size>
+              </property>
+              <property name="autoRepeatDelay">
+               <number>100</number>
+              </property>
+             </widget>
+             <widget class="QLabel" name="label">
+              <property name="geometry">
+               <rect>
+                <x>480</x>
+                <y>240</y>
+                <width>91</width>
+                <height>21</height>
+               </rect>
+              </property>
+              <property name="font">
+               <font>
+                <pointsize>14</pointsize>
+               </font>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background-color: rgb(255, 255, 255);</string>
+              </property>
+              <property name="text">
+               <string>Cantidad:</string>
+              </property>
+             </widget>
+             <widget class="QPushButton" name="Btn_Siguiente">
+              <property name="geometry">
+               <rect>
+                <x>470</x>
+                <y>390</y>
+                <width>221</width>
+                <height>31</height>
+               </rect>
+              </property>
+              <property name="font">
+               <font>
+                <family>Fixedsys</family>
+                <pointsize>11</pointsize>
+                <weight>75</weight>
+                <bold>true</bold>
+               </font>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background-color: rgb(150, 130, 255)
+</string>
+              </property>
+              <property name="text">
+               <string>Siguiente</string>
+              </property>
+             </widget>
+             <widget class="QRadioButton" name="Btn_12">
+              <property name="geometry">
+               <rect>
+                <x>620</x>
+                <y>190</y>
+                <width>61</width>
+                <height>51</height>
+               </rect>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background-color: rgb(255, 255, 255);</string>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+              <property name="icon">
+               <iconset>
+                <normaloff>../../../OneDrive/Documentos/Programacion/Proyecto/Login_V2/Fotos/mascarilla-negra-pilaten.jpg</normaloff>../../../OneDrive/Documentos/Programacion/Proyecto/Login_V2/Fotos/mascarilla-negra-pilaten.jpg</iconset>
+              </property>
+              <property name="iconSize">
+               <size>
+                <width>32</width>
+                <height>48</height>
+               </size>
+              </property>
+             </widget>
+             <widget class="QRadioButton" name="Btn_5">
+              <property name="geometry">
+               <rect>
+                <x>550</x>
+                <y>90</y>
+                <width>51</width>
+                <height>51</height>
+               </rect>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background-color: rgb(255, 255, 255);</string>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+              <property name="icon">
+               <iconset>
+                <normaloff>../../../OneDrive/Documentos/Programacion/Proyecto/Login_V2/Fotos/istockphoto-1404980792-612x612.jpg</normaloff>../../../OneDrive/Documentos/Programacion/Proyecto/Login_V2/Fotos/istockphoto-1404980792-612x612.jpg</iconset>
+              </property>
+              <property name="iconSize">
+               <size>
+                <width>48</width>
+                <height>48</height>
+               </size>
+              </property>
+             </widget>
+             <widget class="QRadioButton" name="Btn_9">
+              <property name="geometry">
+               <rect>
+                <x>620</x>
+                <y>140</y>
+                <width>51</width>
+                <height>51</height>
+               </rect>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background-color: rgb(255, 255, 255);</string>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+              <property name="icon">
+               <iconset>
+                <normaloff>../../../OneDrive/Documentos/Programacion/Proyecto/Login_V2/Fotos/96048633-dibujo-de-botellas-de-jabón-líquido-dispensador-de-jabón.jpg</normaloff>../../../OneDrive/Documentos/Programacion/Proyecto/Login_V2/Fotos/96048633-dibujo-de-botellas-de-jabón-líquido-dispensador-de-jabón.jpg</iconset>
+              </property>
+              <property name="iconSize">
+               <size>
+                <width>32</width>
+                <height>48</height>
+               </size>
+              </property>
+             </widget>
+             <widget class="QPushButton" name="push">
+              <property name="geometry">
+               <rect>
+                <x>470</x>
+                <y>270</y>
+                <width>221</width>
+                <height>31</height>
+               </rect>
+              </property>
+              <property name="font">
+               <font>
+                <family>Fixedsys</family>
+                <pointsize>11</pointsize>
+                <weight>75</weight>
+                <bold>true</bold>
+               </font>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background-color: rgb(255, 255, 255);</string>
+              </property>
+              <property name="text">
+               <string>Agregar</string>
+              </property>
+             </widget>
+             <widget class="QPushButton" name="Btn_Eliminar">
+              <property name="geometry">
+               <rect>
+                <x>470</x>
+                <y>310</y>
+                <width>221</width>
+                <height>31</height>
+               </rect>
+              </property>
+              <property name="font">
+               <font>
+                <family>Fixedsys</family>
+                <pointsize>11</pointsize>
+                <weight>75</weight>
+                <bold>true</bold>
+               </font>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background-color: rgb(255, 255, 255);</string>
+              </property>
+              <property name="text">
+               <string>Eliminar</string>
+              </property>
+             </widget>
+             <widget class="QRadioButton" name="Btn_11">
+              <property name="geometry">
+               <rect>
+                <x>550</x>
+                <y>190</y>
+                <width>51</width>
+                <height>51</height>
+               </rect>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background-color: rgb(255, 255, 255);</string>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+              <property name="icon">
+               <iconset>
+                <normaloff>../../../OneDrive/Documentos/Programacion/Proyecto/Login_V2/Fotos/medicine-dropper-bottle-free-vector.jpg</normaloff>../../../OneDrive/Documentos/Programacion/Proyecto/Login_V2/Fotos/medicine-dropper-bottle-free-vector.jpg</iconset>
+              </property>
+              <property name="iconSize">
+               <size>
+                <width>32</width>
+                <height>48</height>
+               </size>
+              </property>
+             </widget>
+             <widget class="QRadioButton" name="Btn_2">
+              <property name="geometry">
+               <rect>
+                <x>550</x>
+                <y>40</y>
+                <width>51</width>
+                <height>51</height>
+               </rect>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background-color: rgb(255, 255, 255);</string>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+              <property name="icon">
+               <iconset>
+                <normaloff>../../../OneDrive/Documentos/Programacion/Proyecto/Login_V2/Fotos/suero-de-vitamina-c-esencia-hidratante-acido-de-la-fruta-para-la-cara-producto-natural-para-el-cuidado-de-la-piel-rutina-de-la-manana-producto-organico-dibujado-a-mano-vector-2h0x4ed.jpg</normaloff>../../../OneDrive/Documentos/Programacion/Proyecto/Login_V2/Fotos/suero-de-vitamina-c-esencia-hidratante-acido-de-la-fruta-para-la-cara-producto-natural-para-el-cuidado-de-la-piel-rutina-de-la-manana-producto-organico-dibujado-a-mano-vector-2h0x4ed.jpg</iconset>
+              </property>
+              <property name="iconSize">
+               <size>
+                <width>48</width>
+                <height>48</height>
+               </size>
+              </property>
+             </widget>
+             <widget class="QLabel" name="label_13">
+              <property name="geometry">
+               <rect>
+                <x>210</x>
+                <y>-10</y>
+                <width>271</width>
+                <height>41</height>
+               </rect>
+              </property>
+              <property name="font">
+               <font>
+                <family>Segoe UI Black</family>
+                <pointsize>26</pointsize>
+                <weight>75</weight>
+                <bold>true</bold>
+               </font>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">color: rgb(0, 170, 127);</string>
+              </property>
+              <property name="text">
+               <string>Punto de Venta</string>
+              </property>
+             </widget>
+             <widget class="QRadioButton" name="Btn_1">
+              <property name="geometry">
+               <rect>
+                <x>480</x>
+                <y>40</y>
+                <width>51</width>
+                <height>51</height>
+               </rect>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background-color: rgb(255, 255, 255);</string>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+              <property name="icon">
+               <iconset>
+                <normaloff>../Fotos/medicine-dropper-bottle-free-vector.jpg</normaloff>../Fotos/medicine-dropper-bottle-free-vector.jpg</iconset>
+              </property>
+              <property name="iconSize">
+               <size>
+                <width>32</width>
+                <height>48</height>
+               </size>
+              </property>
+             </widget>
+             <widget class="QRadioButton" name="Btn_6">
+              <property name="geometry">
+               <rect>
+                <x>620</x>
+                <y>90</y>
+                <width>51</width>
+                <height>51</height>
+               </rect>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background-color: rgb(255, 255, 255);</string>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+              <property name="icon">
+               <iconset>
+                <normaloff>../../../OneDrive/Documentos/Programacion/Proyecto/Login_V2/Fotos/istockphoto-1352019756-612x612.jpg</normaloff>../../../OneDrive/Documentos/Programacion/Proyecto/Login_V2/Fotos/istockphoto-1352019756-612x612.jpg</iconset>
+              </property>
+              <property name="iconSize">
+               <size>
+                <width>32</width>
+                <height>48</height>
+               </size>
+              </property>
+             </widget>
+             <widget class="QRadioButton" name="Btn_8">
+              <property name="geometry">
+               <rect>
+                <x>550</x>
+                <y>140</y>
+                <width>51</width>
+                <height>51</height>
+               </rect>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background-color: rgb(255, 255, 255);</string>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+              <property name="icon">
+               <iconset>
+                <normaloff>../../../OneDrive/Documentos/Programacion/Proyecto/Login_V2/Fotos/gettyimages-1303772648-612x612.jpg</normaloff>../../../OneDrive/Documentos/Programacion/Proyecto/Login_V2/Fotos/gettyimages-1303772648-612x612.jpg</iconset>
+              </property>
+              <property name="iconSize">
+               <size>
+                <width>32</width>
+                <height>48</height>
+               </size>
+              </property>
+             </widget>
+             <widget class="QRadioButton" name="Btn_10">
+              <property name="geometry">
+               <rect>
+                <x>480</x>
+                <y>190</y>
+                <width>51</width>
+                <height>51</height>
+               </rect>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background-color: rgb(255, 255, 255);</string>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+              <property name="icon">
+               <iconset>
+                <normaloff>../../../OneDrive/Documentos/Programacion/Proyecto/Login_V2/Fotos/3228f4903d1701037fa30c2ead90cd95.png</normaloff>../../../OneDrive/Documentos/Programacion/Proyecto/Login_V2/Fotos/3228f4903d1701037fa30c2ead90cd95.png</iconset>
+              </property>
+              <property name="iconSize">
+               <size>
+                <width>32</width>
+                <height>48</height>
+               </size>
+              </property>
+             </widget>
+             <widget class="QTableWidget" name="tableWidget">
+              <property name="geometry">
+               <rect>
+                <x>0</x>
+                <y>40</y>
+                <width>461</width>
+                <height>381</height>
+               </rect>
+              </property>
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                <horstretch>23</horstretch>
+                <verstretch>32</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="minimumSize">
+               <size>
+                <width>461</width>
+                <height>0</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>461</width>
+                <height>16777215</height>
+               </size>
+              </property>
+              <property name="acceptDrops">
+               <bool>false</bool>
+              </property>
+              <property name="toolTip">
+               <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background-color: rgb(255, 255, 255);</string>
+              </property>
+              <property name="wordWrap">
+               <bool>true</bool>
+              </property>
+              <attribute name="horizontalHeaderCascadingSectionResizes">
+               <bool>false</bool>
+              </attribute>
+              <attribute name="horizontalHeaderMinimumSectionSize">
+               <number>39</number>
+              </attribute>
+              <attribute name="horizontalHeaderDefaultSectionSize">
+               <number>80</number>
+              </attribute>
+              <attribute name="horizontalHeaderShowSortIndicator" stdset="0">
+               <bool>false</bool>
+              </attribute>
+              <attribute name="verticalHeaderMinimumSectionSize">
+               <number>10</number>
+              </attribute>
+              <column>
+               <property name="text">
+                <string>Codigo</string>
+               </property>
+              </column>
+              <column>
+               <property name="text">
+                <string>Producto</string>
+               </property>
+              </column>
+              <column>
+               <property name="text">
+                <string>Precio</string>
+               </property>
+              </column>
+              <column>
+               <property name="text">
+                <string>Cantidad</string>
+               </property>
+              </column>
+              <column>
+               <property name="text">
+                <string>Subtotal</string>
+               </property>
+              </column>
+             </widget>
+             <widget class="QRadioButton" name="Btn_4">
+              <property name="geometry">
+               <rect>
+                <x>480</x>
+                <y>90</y>
+                <width>51</width>
+                <height>51</height>
+               </rect>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background-color: rgb(255, 255, 255);</string>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+              <property name="icon">
+               <iconset>
+                <normaloff>../../../OneDrive/Documentos/Programacion/Proyecto/Login_V2/Fotos/mascarilla-negra-pilaten.jpg</normaloff>../../../OneDrive/Documentos/Programacion/Proyecto/Login_V2/Fotos/mascarilla-negra-pilaten.jpg</iconset>
+              </property>
+              <property name="iconSize">
+               <size>
+                <width>48</width>
+                <height>38</height>
+               </size>
+              </property>
+             </widget>
+             <widget class="QSpinBox" name="spinBox">
+              <property name="geometry">
+               <rect>
+                <x>570</x>
+                <y>240</y>
+                <width>71</width>
+                <height>22</height>
+               </rect>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background-color: rgb(255, 255, 255);</string>
+              </property>
+             </widget>
+             <widget class="QLabel" name="label_5">
+              <property name="geometry">
+               <rect>
+                <x>470</x>
+                <y>40</y>
+                <width>221</width>
+                <height>221</height>
+               </rect>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background:rgb(255, 255, 255)</string>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+             <zorder>label_5</zorder>
+             <zorder>Btn_Barcode</zorder>
+             <zorder>Btn_3</zorder>
+             <zorder>Btn_7</zorder>
+             <zorder>label</zorder>
+             <zorder>Btn_Siguiente</zorder>
+             <zorder>Btn_12</zorder>
+             <zorder>Btn_5</zorder>
+             <zorder>Btn_9</zorder>
+             <zorder>push</zorder>
+             <zorder>Btn_Eliminar</zorder>
+             <zorder>Btn_11</zorder>
+             <zorder>Btn_2</zorder>
+             <zorder>label_13</zorder>
+             <zorder>Btn_1</zorder>
+             <zorder>Btn_6</zorder>
+             <zorder>Btn_8</zorder>
+             <zorder>Btn_10</zorder>
+             <zorder>tableWidget</zorder>
+             <zorder>Btn_4</zorder>
+             <zorder>spinBox</zorder>
+            </widget>
+            <widget class="QWidget" name="pagina_RE">
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(170, 170, 255);</string>
+             </property>
+             <widget class="QLabel" name="label_2">
+              <property name="geometry">
+               <rect>
+                <x>230</x>
+                <y>0</y>
+                <width>251</width>
+                <height>61</height>
+               </rect>
+              </property>
+              <property name="font">
+               <font>
+                <family>MS Shell Dlg 2</family>
+                <pointsize>72</pointsize>
+                <weight>50</weight>
+                <italic>false</italic>
+                <bold>false</bold>
+               </font>
+              </property>
+              <property name="styleSheet">
+               <string notr="true"/>
+              </property>
+              <property name="text">
+               <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:26pt; font-weight:600; font-style:italic;&quot;&gt;Inventario&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+             <widget class="QPushButton" name="btn_Actualizar">
+              <property name="geometry">
+               <rect>
+                <x>260</x>
+                <y>380</y>
+                <width>191</width>
+                <height>30</height>
+               </rect>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">border-radius: 10px;
+background-color: rgb(91, 91, 91);</string>
+              </property>
+              <property name="text">
+               <string>ACTUALIZAR</string>
+              </property>
+             </widget>
+             <widget class="QTableWidget" name="tabla_inventario">
+              <property name="geometry">
+               <rect>
+                <x>70</x>
+                <y>60</y>
+                <width>561</width>
+                <height>311</height>
+               </rect>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background-color: rgb(255, 255, 255);</string>
+              </property>
+              <column>
+               <property name="text">
+                <string>Codigo</string>
+               </property>
+              </column>
+              <column>
+               <property name="text">
+                <string>Cod_Prod</string>
+               </property>
+              </column>
+              <column>
+               <property name="text">
+                <string>Nom_Prod</string>
+               </property>
+              </column>
+              <column>
+               <property name="text">
+                <string>Stock</string>
+               </property>
+              </column>
+              <column>
+               <property name="text">
+                <string>Precio_Unidad</string>
+               </property>
+              </column>
+             </widget>
+            </widget>
+            <widget class="QWidget" name="pagina_Actualizar">
+             <widget class="QLabel" name="label_3">
+              <property name="geometry">
+               <rect>
+                <x>150</x>
+                <y>40</y>
+                <width>281</width>
+                <height>41</height>
+               </rect>
+              </property>
+              <property name="text">
+               <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600; font-style:italic;&quot;&gt;ACTUALIZAR PRODUCTO&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+              </property>
+             </widget>
+             <widget class="QLabel" name="label_17">
+              <property name="geometry">
+               <rect>
+                <x>40</x>
+                <y>300</y>
+                <width>351</width>
+                <height>101</height>
+               </rect>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">font: 75 27pt &quot;MS Sans Serif&quot;;</string>
+              </property>
+              <property name="text">
+               <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:18pt; font-weight:600;&quot;&gt;Pedido Actualizado (●'◡'●)&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+              </property>
+             </widget>
+             <widget class="QLabel" name="label_14">
+              <property name="geometry">
+               <rect>
+                <x>40</x>
+                <y>160</y>
+                <width>47</width>
+                <height>13</height>
+               </rect>
+              </property>
+              <property name="text">
+               <string>NOMBRE:</string>
+              </property>
+             </widget>
+             <widget class="QLabel" name="label_19">
+              <property name="geometry">
+               <rect>
+                <x>40</x>
+                <y>220</y>
+                <width>71</width>
+                <height>16</height>
+               </rect>
+              </property>
+              <property name="text">
+               <string>CANTIDAD:</string>
+              </property>
+             </widget>
+             <widget class="QPushButton" name="BOTON_BUSCAR_3">
+              <property name="geometry">
+               <rect>
+                <x>380</x>
+                <y>100</y>
+                <width>75</width>
+                <height>23</height>
+               </rect>
+              </property>
+              <property name="text">
+               <string>BUSCAR</string>
+              </property>
+             </widget>
+             <widget class="QLineEdit" name="TXT_NOMBRE_PRODUCTO_2">
+              <property name="geometry">
+               <rect>
+                <x>220</x>
+                <y>100</y>
+                <width>151</width>
+                <height>20</height>
+               </rect>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background-color: rgb(255, 255, 255);</string>
+              </property>
+             </widget>
+             <widget class="QLabel" name="label_15">
+              <property name="geometry">
+               <rect>
+                <x>40</x>
+                <y>100</y>
+                <width>181</width>
+                <height>16</height>
+               </rect>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">font: 75 11pt &quot;MS Shell Dlg 2&quot;;</string>
+              </property>
+              <property name="text">
+               <string>NOMBRE DEL PRODUCTO:</string>
+              </property>
+             </widget>
+             <widget class="QLineEdit" name="TXT_NOMBRE_3">
+              <property name="geometry">
+               <rect>
+                <x>100</x>
+                <y>160</y>
+                <width>151</width>
+                <height>20</height>
+               </rect>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background-color: rgb(255, 255, 255);</string>
+              </property>
+             </widget>
+             <widget class="QLabel" name="label_16">
+              <property name="geometry">
+               <rect>
+                <x>40</x>
+                <y>190</y>
+                <width>47</width>
+                <height>20</height>
+               </rect>
+              </property>
+              <property name="text">
+               <string>PRECIO:</string>
+              </property>
+             </widget>
+             <widget class="QLineEdit" name="TXT_PRECIO_3">
+              <property name="geometry">
+               <rect>
+                <x>100</x>
+                <y>190</y>
+                <width>151</width>
+                <height>20</height>
+               </rect>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background-color: rgb(255, 255, 255);</string>
+              </property>
+             </widget>
+             <widget class="QLabel" name="label_18">
+              <property name="geometry">
+               <rect>
+                <x>40</x>
+                <y>130</y>
+                <width>51</width>
+                <height>21</height>
+               </rect>
+              </property>
+              <property name="text">
+               <string>CODIGO:</string>
+              </property>
+             </widget>
+             <widget class="QLineEdit" name="TXT_CANTIDAD_2">
+              <property name="geometry">
+               <rect>
+                <x>100</x>
+                <y>220</y>
+                <width>151</width>
+                <height>20</height>
+               </rect>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background-color: rgb(255, 255, 255);</string>
+              </property>
+             </widget>
+             <widget class="QPushButton" name="BOTON_ACTUALIZAR_3">
+              <property name="geometry">
+               <rect>
+                <x>80</x>
+                <y>260</y>
+                <width>121</width>
+                <height>23</height>
+               </rect>
+              </property>
+              <property name="text">
+               <string>ACTUALIZAR</string>
+              </property>
+             </widget>
+             <widget class="QLabel" name="label_4">
+              <property name="geometry">
+               <rect>
+                <x>100</x>
+                <y>130</y>
+                <width>151</width>
+                <height>21</height>
+               </rect>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background-color: rgb(255, 255, 255);
+</string>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </widget>
+            <widget class="QWidget" name="pagina_ELIMINAR"/>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item row="0" column="0">
+     <widget class="QFrame" name="frame_superior">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>2</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(170, 170, 255);</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_2">
+       <item row="0" column="0">
+        <widget class="QPushButton" name="BOTON_LOGO">
+         <property name="maximumSize">
+          <size>
+           <width>16777215</width>
+           <height>30</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <family>Franklin Gothic Demi</family>
+           <pointsize>14</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgba(255, 0,0, 2);</string>
+         </property>
+         <property name="text">
+          <string>SUMAQ RUNAKAY</string>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>../Fotos/ICONO.ico</normaloff>../Fotos/ICONO.ico</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>100</width>
+           <height>30</height>
+          </size>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
