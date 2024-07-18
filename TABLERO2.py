@@ -67,11 +67,6 @@ class Tablucho(QMainWindow):
 
         self.ui.tableWidget.cellClicked.connect(self.registrar_seleccion)
 
-        #Sustraccion de productos comprados
-        """
-        self.RestacodProductos =[]
-        self.RestaCantidad = []
-        """
         # Datos de productos
         filas = cursor.fetchall()
         self.ListaProductos = []
@@ -82,17 +77,7 @@ class Tablucho(QMainWindow):
             self.CodigoProductos.append(id_producto)
             self.ListaProductos.append(nombre_producto)
             self.PreciosProductos.append(float(precio_unitario))
-        """# BOLETA
-        self.BO_Productos=[]
-        self.BO_Precios =[]
-        self.BO_Cantidad=[]
-        self.BO_PREUNI=[]
-
-        # Variables adicionales
-        self.alfa = 0
-        self.vueltas= 0
-        self.totales = 0
-        self.indice_seleccionado = -1"""
+        
     def Agregar(self):
         
         self.indice = -1
@@ -125,9 +110,7 @@ class Tablucho(QMainWindow):
         self.RestacodProductos.append(self.codigo)
         self.RestaCantidad.append(self.Cantidad)
 
-
-
-            # Boleta
+        # Boleta
         self.BO_Productos.append(self.Producto)
         self.BO_Precios.append(self.subtotal)
         self.BO_Cantidad.append(self.Cantidad)
@@ -433,6 +416,7 @@ class Tablucho(QMainWindow):
 
     def mostrar_pagina_eliminar(self):
         self.ui.stackedWidget.setCurrentWidget(self.ui.pagina_ELIMINAR)
+        
 
     def actualizar_producto(self):
         if self.Verificaion == True:
