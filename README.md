@@ -1,4 +1,4 @@
-# Proyecto-06-06 _V2 - copia
+# Proyecto Punto de Venta con Lector de Codigo de Barras
 ### leer explicacion
 
 ### Se ejecuta la base de datos
