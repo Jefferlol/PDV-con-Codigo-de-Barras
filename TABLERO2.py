@@ -214,12 +214,18 @@ class Tablucho(QMainWindow):
             cursor.execute(restarenPTVENTA, (str(modified_values[j]),self.RestacodProductos[j]))
             self.conn.commit()
         from Registro import Registro
+
+
         self.Main = Registro(Total, self.User, self.BO_Precios, self.BO_Productos, self.BO_Cantidad, self.BO_PREUNI)
         self.Main.show()
-        self.close()
+        self.hide()
+
+
     def Datos(self):
         return self.BO_Precios, self.BO_Productos, self.BO_Cantidad, self.BO_PREUNI
+    
     def Barcode(self):
+
         import cv2
         from pyzbar.pyzbar import decode
         import time
@@ -332,12 +338,6 @@ class Tablucho(QMainWindow):
 
         cap.release()
         cv2.destroyAllWindows()
-
-
-
-        
-
-        
 
     def mostrar_pagina_registrar(self):
         

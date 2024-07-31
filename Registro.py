@@ -63,8 +63,9 @@ class Registro(QWidget,Ui_MainWindow):
             self.newTotal = self.Total
 
     def Atras(self):
-        Tabla = Tablucho(self.User)
-        Tabla.Main.show()
+        self.Tablero = Tablucho()
+        self.Tablero.show()
+        self.close()
 
     def Salir(self):
   
