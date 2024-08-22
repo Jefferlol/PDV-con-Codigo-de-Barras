@@ -1,0 +1,21 @@
+             Empresa de Productos de belleza        
+                      Sumaq Runakay                 
+                   R.U.C. 999999999999              
+           Avenida Tacna Parque Central Chosica      
+                   BOLETA ELECTRONICA               
+                         F0003                       
+  Fecha Emision:                             2024-08-22
+  Hora                                         17:32:48
+  Cajero                                                 
+  Doc. Identidad:                              60805652   
+_________________________________________________________
+
+  Cantidad         Producto        P.Unit       TOTAL  
+_________________________________________________________
+
+     2           Bloqueador       S./ 10.0     S./ 20.0   
+_________________________________________________________
+
+TOTAL:                                        S/. 20.0  
+DESCUENTO:                                     S/. 3.0  
+TOTAL:                                        S/. 17.0  
